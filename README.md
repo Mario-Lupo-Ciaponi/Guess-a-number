@@ -7,7 +7,7 @@ print that says "Too high!" and if it is too low, "Too low!".
 
 [Source code](https://github.com/Mario-Lupo-Ciaponi/Guess-a-number/blob/main/guess_a_number.py)
 ![Screenshot of the game](Screenshot%202024-01-23%20at%2016.33.31.png)
-## Purpose of thr game
+## Purpose of the game
 The purpose of this project is to practice Git and GitHub. I am currently learning programming so this is not much of 
-a project, but I tries to implement some unique features. If you encounter any bugs in my code please let me know. 
+a project, but I tried to implement some unique features. If you encounter any bugs in my code please let me know. 
 
