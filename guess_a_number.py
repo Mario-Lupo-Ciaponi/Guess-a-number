@@ -119,6 +119,4 @@ print("Developers high score:\n"
       "Easy: 1 try\n"
       "Normal: 5 tries\n"
       "Hard: 22 tries\n"
-      "Very hard: 32 tries\n"
-      "Extreme: (not yet tried)\n"
-      "Impossible: (not yet tried)\n")
+      "Very hard: 32 tries")
