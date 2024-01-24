@@ -6,8 +6,11 @@ difficulty that you chose. You win when you guess the random number. If your num
 print that says "Too high!" and if it is too low, "Too low!".
 
 ![Screenshot of the game](images/part_of_the_game.png)
+
 [![Replit](images/replit_image.png)](https://replit.com/@mariolupociapon/GuessA-NumberByMarioLupoCiaponi)
+
 [Source code](https://github.com/Mario-Lupo-Ciaponi/Guess-a-number/blob/main/guess_a_number.py)
+
 ## Purpose of the game
 The purpose of this project is to practice Git and GitHub. I am currently learning programming so this is not much of 
 a project, but I tried to implement some unique features. If you encounter any bugs in my code please let me know. 
