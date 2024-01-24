@@ -35,42 +35,50 @@ print()
 random_number = 0
 
 difficulty_in_string = ""
+range_of_numbers = ""
+
 while True:
     difficulty = int(input("Please chose the number of the difficulty that you would like to play: "))
 
     if difficulty == 1:
-        random_number = random.randint(0, 10)
+        random_number = random.randint(1, 10)
         difficulty_in_string = "Easy"
+        range_of_numbers = "1-10"
 
         if limited_tries_game_mode:
             cap_of_tries = 5
     elif difficulty == 2:
         random_number = random.randint(1, 100)
         difficulty_in_string = "Normal"
+        range_of_numbers = "1-100"
 
         if limited_tries_game_mode:
             cap_of_tries = 15
     elif difficulty == 3:
         random_number = random.randint(1, 1000)
         difficulty_in_string = "Hard"
+        range_of_numbers = "1-1000"
 
         if limited_tries_game_mode:
             cap_of_tries = 20
     elif difficulty == 4:
         random_number = random.randint(1, 10000)
         difficulty_in_string = "Very hard"
+        range_of_numbers = "1-10000"
 
         if limited_tries_game_mode:
             cap_of_tries = 30
     elif difficulty == 5:
         random_number = random.randint(1, 100000)
         difficulty_in_string = "Extreme"
+        range_of_numbers = "1-100000"
 
         if limited_tries_game_mode:
             cap_of_tries = 40
     elif difficulty == 6:
         random_number = random.randint(1, 1000000)
         difficulty_in_string = "Impossible"
+        range_of_numbers = "1-1000000"
 
         if limited_tries_game_mode:
             cap_of_tries = 50
@@ -87,7 +95,7 @@ print(f'You chose "{difficulty_in_string}"')
 if limited_tries_game_mode:
     print(f"Cap of tries: {cap_of_tries}")
 
-number = int(input("Guess the number: "))
+number = int(input(f"Guess the number(Integer number in range from {range_of_numbers}): "))
 tries = 1
 
 failed = False
@@ -103,7 +111,7 @@ while random_number != number:
             failed = True
             break
 
-    number = int(input("Guess the number: "))
+    number = int(input(f"Guess the number(Integer number in range from {range_of_numbers}): "))
     tries += 1
 
 print("=============================================================================================================")
